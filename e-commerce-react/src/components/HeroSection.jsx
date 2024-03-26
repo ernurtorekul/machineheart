@@ -7,7 +7,7 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='heroContainer'>
-        <video src='/video/machineheart_compressed.mp4' autoPlay loop muted/>
+        {/* <video src='/video/machineheart_compressed.mp4' autoPlay loop muted/> */}
         <h1>Machineheart</h1>
         <p>Discover More</p>
         <div className='hero-btns'>

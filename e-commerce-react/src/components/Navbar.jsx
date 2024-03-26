@@ -35,7 +35,8 @@ export default function navbar() {
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             {/* mHeart <i className="fa-regular fa-heart fa-2xs heart-logo"></i> */}
-            mHeart <img src="/images/logo1.png" className='heart-logo' alt=""/>
+            <span>mHeart</span> 
+            <img src="/images/logo1.png" className='heart-logo' alt=""/>
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'} />
