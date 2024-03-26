@@ -67,18 +67,18 @@ function Footer() {
                 </div>
                 <small className='website-rights'>mHeart © 2024</small>
                 <div className="social-icons">
-                    <Link className="social-icon-link facebook" to='/' target='_blank' aria-label='Instagram'>  {/*that target='_blank' opens the link in another page */}
+                    <a className="social-icon-link instagram" href='https://www.instagram.com/machineheart/' target='_blank' aria-label='Instagram'>  {/*that target='_blank' opens the link in another page */}
                         <i className='fab fa-instagram'/>
-                    </Link>
-                    <Link className="social-icon-link instagram" to='/' target='_blank' aria-label='Spotify'>  {/*that target='_blank' opens the link in another page */}
+                    </a>
+                    <a className="social-icon-link spotify" href='https://open.spotify.com/artist/4uethVhVpoyO3OhT40JH1o?si=iLv2TtzRTRSsQizSsw1UAg' target='_blank' aria-label='Spotify'>  {/*that target='_blank' opens the link in another page */}
                         <i className='fab fa-spotify'/>
-                    </Link>
-                    <Link className="social-icon-link facebook" to='/' target='_blank' aria-label='Youtube'>  {/*that target='_blank' opens the link in another page */}
+                    </a>
+                    <a className="social-icon-link youtube" href='https://www.youtube.com/@machineheart' target='_blank' aria-label='Youtube'>  {/*that target='_blank' opens the link in another page */}
                         <i className='fab fa-youtube'/>
-                    </Link>
-                    <Link className="social-icon-link twitter" to='/' target='_blank' aria-label='Twitter'>  {/*that target='_blank' opens the link in another page */}
+                    </a>
+                    <a className="social-icon-link twitter" href='https://x.com/machineheart?s=20' target='_blank' aria-label='Twitter'>  {/*that target='_blank' opens the link in another page */}
                         <i className='fab fa-twitter'/>
-                    </Link>
+                    </a>
                 </div>
             </div>
         </section>
